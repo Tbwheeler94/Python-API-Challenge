@@ -32,9 +32,9 @@ The second half of this script uses weather data gathered from Part I to visuali
 
 The first visualization is a heat map that displays the humidity for every city from the part I narrowed by the following parameters:
 
-    # -A max temperature lower than 80 degrees but higher than 70.
-    # -Wind speed less than 10 mph.
-    # -Zero cloudiness.
+     -A max temperature lower than 80 degrees but higher than 70.
+     -Wind speed less than 10 mph.
+     -Zero cloudiness.
 
 Using Google Places API I find the first hotel for each city located within 5000 meters of the output coordinates.
 
